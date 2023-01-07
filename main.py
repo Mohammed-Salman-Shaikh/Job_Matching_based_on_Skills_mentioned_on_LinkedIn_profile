@@ -8,8 +8,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 print('- Finish importing packages')
 
 DRIVER_PATH = ChromeDriverManager().install()
-EMAIL = "salluarsh.786@gmail.com"
-PASSWORD = "x%$fjm-9R(yHE38"
+EMAIL = "Your Email"
+PASSWORD = "Your Password"
 
 browser = webdriver.Chrome(DRIVER_PATH)
 print('- Finish initializing a driver')
