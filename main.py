@@ -12,8 +12,8 @@ from selenium.common.exceptions import StaleElementReferenceException, TimeoutEx
 print('- Finish importing packages')
 
 DRIVER_PATH = ChromeDriverManager().install()
-EMAIL = "salluarsh.786@gmail.com"
-PASSWORD = "2AH/Z(%@i2Q2J=7"
+EMAIL = "Your Email"
+PASSWORD = "Your Password"
 
 options = Options()
 options.add_argument("--start-maximized")
